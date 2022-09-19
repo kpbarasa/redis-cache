@@ -1,7 +1,7 @@
 <h4>Node Js Redis Cache<h4>
 
 <p>
-This is ab simple ack-end node application thast stores user names in a database (Mongo DB).
+This is ab simple ack-end node application thast stores user names in a redis cache.
 </p>
 
 <h5>Software ======================================================================================================================================================= </h5>
@@ -52,13 +52,13 @@ Dependences:
 1. main (main.controller.js)
 <ul>
 	<li>
-	    @desc        cache data, get data
-        @route       GET: /repos/:username
+	    @desc        cache data, get data<br>
+        @route       GET: /repos/:username<br>
 		@middleware: cache, getRepos
 	</li>
 	<li>
-	    @desc        Clear cache
-        @route       GET: /repos/logout
+	    @desc        Clear cache<br>
+        @route       GET: /repos/logout<br>
 		@middleware: cacheClear
 	</li>
 </ul>
@@ -75,12 +75,12 @@ Dependences:
 
 
 # Node Config
-ATLAS_URI=mongodb+srv://
-paulBarasa:iZn9gxbNyXFusFN0@cluster0.4p1ws.mongodb.net/
-myFirstDatabase?retryWrites=true&w=majority
-PORT=5000
-REDIS_PORT=6379
-productionPort = 8000
+ATLAS_URI=mongodb+srv://<br>
+paulBarasa:iZn9gxbNyXFusFN0@cluster0.4p1ws.mongodb.net/<br>
+myFirstDatabase?retryWrites=true&w=majority<br>
+PORT=5000<br>
+REDIS_PORT=6379<br>
+productionPort = 8000<br>
 
 <br>
   
