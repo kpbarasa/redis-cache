@@ -4,16 +4,6 @@
 This is ab simple ack-end node application thast stores user names in a database (Mongo DB).
 </p>
 
-The system should expose endpoints that provide the following services:
-1. Login validation, Normal html and goggle log in , 
-2. Password recovery
-3. Session creation
-5. Access control (route authentication through sessions)
-6. Security management 
-7. Route authentication, 
-8. Reporting
-
-
 <h5>Software ======================================================================================================================================================= </h5>
 
 1. Node js 
